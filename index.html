@@ -18,8 +18,24 @@
                 padding: 0;
                 box-sizing: border-box;
             }
-            div{
-                padding-top:50px; 
+            header{
+                height:200;
+                width:100vw;
+                /* margin-bottom: 2rem; */
+                display:flex;
+                justify-content: center;
+            }
+            header img{
+                height: 100%;
+                width:auto;
+                object-fit: cover;
+            }
+
+            main{
+                margin-top: 2rem;
+            }
+            main div{
+                padding-top:30px; 
                 display:flex; 
                 justify-content:center;
             }
@@ -29,18 +45,37 @@
                 padding:1rem;
                 text-decoration:none; 
                 font-weight:bold;
+                border-radius:10px;
+                width:80%;
+                margin:auto;
+                text-align: center;
+                max-width: 500px;
+
             }
+            
         </style>
     </head>
     <body>
-        <div>
-            <a
-                href="/assets/tentenpen-refer.png"
-                target="_blank" download
-            >
-                Download TentenPen Poster 
-            </a>
-        </div>
-        
+        <header>
+                <img src="./assets/logo.png" alt="logo">
+        </header>
+        <main>
+            <div>
+                <a
+                    href="/assets/tentenpen-refer.png"
+                    target="_blank" download
+                >
+                    Download TentenPen Poster 
+                </a>
+            </div>
+                <div>
+                <a
+                    href="https://forms.gle/VMSFAGbYVNxqKNdi6"
+                    target="_blank"
+                >
+                    Become a Referer
+                </a>
+            </div>
+        </main>
     </body>
     </html>
